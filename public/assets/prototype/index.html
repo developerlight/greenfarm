@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Green Farm — Prototype Asset Board</title>
+<style>
+  :root { color-scheme: light; --ink:#31513d; --grass:#73b95b; --cream:#fff2d2; --soil:#c98754; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:32px; color:var(--ink); font:16px/1.5 system-ui,sans-serif; background:#edf4df; }
+  main { max-width:1000px; margin:auto; }
+  h1 { margin:0 0 6px; font-size:clamp(28px,5vw,44px); }
+  .intro { margin:0 0 26px; max-width:700px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:18px; }
+  figure { margin:0; padding:18px; border:3px solid var(--ink); border-radius:20px; background:#fffaf0; box-shadow:0 7px 0 #31513d1c; }
+  .art { display:grid; place-items:center; min-height:205px; border-radius:14px; background:linear-gradient(#dff1cb 0 58%,#c8e5a3 58%); }
+  img { width:180px; height:180px; object-fit:contain; }
+  figcaption { padding-top:12px; font-weight:700; }
+  small { display:block; font-weight:400; opacity:.8; }
+  footer { margin-top:22px; font-size:14px; }
+</style>
+<main>
+  <h1>Green Farm</h1>
+  <p class="intro">Papan gaya awal untuk aset orisinal. Ilustrasi ini menguji palet dan keterbacaan saja; objek gameplay final menunggu pemeriksaan video referensi.</p>
+  <section class="grid" aria-label="Aset prototipe">
+    <figure><div class="art"><img src="plot.svg" alt="Petak tanah stylized"></div><figcaption>Petak lahan<small>Uji bentuk tanah dan rumput</small></figcaption></figure>
+    <figure><div class="art"><img src="seedling.svg" alt="Bibit generik"></div><figcaption>Bibit generik<small>Bukan spesies atau tahap final</small></figcaption></figure>
+    <figure><div class="art"><img src="barn.svg" alt="Bangunan pertanian generik"></div><figcaption>Bangunan generik<small>Identitas dan fungsi belum dikonfirmasi</small></figcaption></figure>
+    <figure><div class="art"><img src="chicken.svg" alt="Hewan ternak generik"></div><figcaption>Hewan generik<small>Keberadaan di alur target belum dikonfirmasi</small></figcaption></figure>
+  </section>
+  <footer>Gambar dibuat untuk proyek ini. Arah visual sementara: bentuk membulat, warna hangat, outline hijau tua, dan bayangan lembut.</footer>
+</main>
+</html>

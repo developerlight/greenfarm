@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 160">
+  <title>Green Farm original generic chicken prototype</title>
+  <ellipse cx="97" cy="143" rx="54" ry="9" fill="#31513d" opacity=".17"/>
+  <path d="M43 108c-4-31 15-60 48-65 24-4 45 9 52 30l19 8-18 10c1 26-20 43-52 43H60c-10 0-17-10-17-26z" fill="#fff2d2" stroke="#31513d" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M53 83c-18-11-28-6-31 7 11 11 23 11 35 3" fill="#fff2d2" stroke="#31513d" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M85 91c12-18 34-20 48-6-2 22-23 34-44 24" fill="#f3d69c" stroke="#31513d" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="124" cy="66" r="5" fill="#31513d"/>
+  <path d="m160 78 19 8-19 9z" fill="#e9a34a" stroke="#31513d" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M101 133v9m28-9v9m-36 1h17m10 0h17" fill="none" stroke="#e9a34a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M107 47c-2-13 7-18 14-9 7-13 18-7 14 5" fill="#d96655" stroke="#31513d" stroke-width="5" stroke-linejoin="round"/>
+</svg>

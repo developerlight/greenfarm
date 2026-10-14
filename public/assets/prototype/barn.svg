@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 240">
+  <title>Green Farm original generic barn prototype</title>
+  <ellipse cx="129" cy="214" rx="99" ry="14" fill="#31513d" opacity=".17"/>
+  <path d="M34 102 128 39l94 63v103H34z" fill="#d96655" stroke="#31513d" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M34 102 128 39l94 63" fill="none" stroke="#fff2d2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M87 205v-75h82v75" fill="#f3d69c" stroke="#31513d" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M128 130v75M88 169h80" fill="none" stroke="#95613f" stroke-width="6"/>
+  <path d="M107 76h42v31h-42z" fill="#71c9d1" stroke="#31513d" stroke-width="6"/>
+  <path d="M128 77v29m-20-15h40" fill="none" stroke="#fff2d2" stroke-width="4"/>
+  <path d="M25 207h206" stroke="#31513d" stroke-width="8" stroke-linecap="round"/>
+</svg>

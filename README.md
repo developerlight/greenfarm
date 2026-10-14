@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Green Farm Web
 
-## Getting Started
+Game simulasi kebun web single-player dengan aset visual buatan sendiri. Build lokal saat ini mencakup loop tanam/panen/produksi/pesanan, progression level 1–100, dan 100 misi utama dalam 10 bab. Timer memakai timestamp; progres disimpan pada browser.
 
-First, run the development server:
+## Teknologi
+
+- Next.js App Router + React + TypeScript
+- Three.js + React Three Fiber untuk kebun 3D isometrik
+- Zustand untuk state aksi, localStorage save versi 2 dengan migrasi dari versi 1
+- Supabase + `@supabase/ssr` client helpers disiapkan untuk tahap server, tetapi belum dikonfigurasi
+
+## Jalankan lokal
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka `http://localhost:3000` lalu tekan tombol ke kebun atau akses `/game`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Cara bermain
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Pilih petak A yang tertutup batu, lalu bersihkan.
+2. Pilih petak tanah dan tanam gandum. Setelah 25 detik, panen memberi 3 gandum, 1 benih, 5 XP, dan 4 koin.
+3. Masukkan 2 gandum ke mesin pakan; ambil 1 pakan setelah 12 detik.
+4. Kirim pakan kepada Rosco untuk menyelesaikan permintaan dan memperoleh 30 koin, 12 XP, dan 1 hati.
+5. Refresh halaman: progres dan timer dipulihkan. Tombol “Mulai ulang” menghapus save lokal setelah konfirmasi.
+6. Ikuti misi utama pada panel misi; klaim hadiah untuk XP dan koin, lalu buka peta perjalanan 10 bab.
 
-## Learn More
+## Batas MVP
 
-To learn more about Next.js, take a look at the following resources:
+Aturan resep, jumlah hasil, harga/reward, kurva level, dan durasi uji adalah desain orisinal Green Farm Web, bukan klaim angka dari game asli. Save browser lokal tidak berotoritas server dan belum tersinkron lintas perangkat. Database sengaja ditunda; belum ada login, sistem ekonomi penuh, hewan interaktif, event, atau deployment online.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Dokumen proyek
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [GDD MVP](docs/game-design.md)
+- [Delivery plan dan status](docs/delivery-plan.md)
+- [Gameplay evidence log](docs/gameplay-evidence-log.md)
+- [Teknis/arsitektur](docs/architecture.md)
+- [Art direction](docs/art-direction.md)
+- [Manifest aset orisinal](docs/asset-manifest.md)
+- [Backlog aset](docs/asset-production-backlog.md)

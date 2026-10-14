@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 192">
+  <title>Green Farm original prototype soil plot</title>
+  <ellipse cx="128" cy="157" rx="104" ry="19" fill="#31513d" opacity=".16"/>
+  <path d="M25 91 128 43l103 48-103 57z" fill="#73b95b" stroke="#31513d" stroke-width="7" stroke-linejoin="round"/>
+  <path d="m48 98 80-37 80 37-80 39z" fill="#c98754" stroke="#31513d" stroke-width="6" stroke-linejoin="round"/>
+  <path d="m65 101 63-29 63 29M83 110l45-21 45 21M102 119l26-12 26 12" fill="none" stroke="#95613f" stroke-width="5" stroke-linecap="round"/>
+  <path d="m25 91 23 7v17l80 43 80-43V98l23-7v20l-103 58L25 111z" fill="#95613f" stroke="#31513d" stroke-width="6" stroke-linejoin="round"/>
+  <path d="m34 91 94 45 94-45" fill="none" stroke="#a8d978" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 192">
+  <title>Green Farm original generic seedling prototype</title>
+  <ellipse cx="80" cy="177" rx="35" ry="8" fill="#31513d" opacity=".18"/>
+  <path d="M80 157V79" fill="none" stroke="#547f45" stroke-width="10" stroke-linecap="round"/>
+  <path d="M77 108C43 109 25 91 29 68c27-2 48 10 51 34" fill="#73b95b" stroke="#31513d" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M83 92c2-29 21-49 49-46 3 25-12 46-44 54" fill="#a8d978" stroke="#31513d" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M47 76c11 5 20 13 27 24m43-43c-10 9-17 20-23 34" fill="none" stroke="#d4ed9a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M51 165c8-8 17-11 29-11s22 4 29 11" fill="none" stroke="#95613f" stroke-width="6" stroke-linecap="round"/>
+</svg>
